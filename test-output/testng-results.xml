@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-30T10:17:04 IST" name="Default suite" finished-at="2021-12-30T10:17:08 IST" duration-ms="3837">
+    <groups>
+    </groups>
+    <test started-at="2021-12-30T10:17:04 IST" name="Default test" finished-at="2021-12-30T10:17:08 IST" duration-ms="3837">
+      <class name="seleniumGridExamples.HRMEdgeExample">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:seleniumGridExamples.HRMEdgeExample@47faa49c]" started-at="2021-12-30T10:17:04 IST" name="openBrowser" finished-at="2021-12-30T10:17:08 IST" duration-ms="3735" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: No matching capabilities found
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-Q2RM1HI', ip: '10.1.10.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::unpack [0x01166B73+47027]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E52B30+132256]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E926C4+393268]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E91351+388289]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E8E23B+375723]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E71BA6+259350]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E725A9+261913]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105A85C+1417292]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012D96C4+88196]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012DC7D8+100760]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012D9E11+90065]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x01051DBC+1381804]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105C528+1424664]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105C6A2+1425042]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0106D448+1494072]
+BaseThreadInitThunk [0x7653FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77027A9E+286]
+RtlGetAppContainerNamedObjectPath [0x77027A6E+238]
+
+Command duration or timeout: 2.45 seconds]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: No matching capabilities found
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-Q2RM1HI', ip: '10.1.10.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::unpack [0x01166B73+47027]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E52B30+132256]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E926C4+393268]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E91351+388289]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E8E23B+375723]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E71BA6+259350]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E725A9+261913]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105A85C+1417292]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012D96C4+88196]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012DC7D8+100760]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012D9E11+90065]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x01051DBC+1381804]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105C528+1424664]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105C6A2+1425042]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0106D448+1494072]
+BaseThreadInitThunk [0x7653FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77027A9E+286]
+RtlGetAppContainerNamedObjectPath [0x77027A6E+238]
+
+Command duration or timeout: 2.45 seconds
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at seleniumGridExamples.HRMEdgeExample.openBrowser(HRMEdgeExample.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: No matching capabilities found
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-Q2RM1HI', ip: '10.1.10.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::unpack [0x01166B73+47027]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E52B30+132256]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E926C4+393268]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E91351+388289]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E8E23B+375723]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E71BA6+259350]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E725A9+261913]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105A85C+1417292]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012D96C4+88196]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012DC7D8+100760]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012D9E11+90065]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x01051DBC+1381804]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105C528+1424664]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105C6A2+1425042]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0106D448+1494072]
+BaseThreadInitThunk [0x7653FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77027A9E+286]
+RtlGetAppContainerNamedObjectPath [0x77027A6E+238]
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q2RM1HI', ip: '10.1.10.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.grid.session.remote.RemoteSession$Factory.performHandshake(RemoteSession.java:147)
+at org.openqa.selenium.grid.session.remote.ServicedSession$Factory.apply(ServicedSession.java:161)
+at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$12(ActiveSessionFactory.java:180)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$11$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:183)
+at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$2(NewSessionPipeline.java:66)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+at java.util.Collections$2.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$3(NewSessionPipeline.java:69)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.DistinctOps$1$2.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Unknown Source)
+at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:72)
+at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
+at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="openTest()[pri:0, instance:seleniumGridExamples.HRMEdgeExample@47faa49c]" started-at="2021-12-30T10:17:08 IST" name="openTest" finished-at="2021-12-30T10:17:08 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: No matching capabilities found
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-Q2RM1HI', ip: '10.1.10.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::unpack [0x01166B73+47027]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E52B30+132256]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E926C4+393268]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E91351+388289]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E8E23B+375723]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E71BA6+259350]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E725A9+261913]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105A85C+1417292]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012D96C4+88196]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012DC7D8+100760]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012D9E11+90065]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x01051DBC+1381804]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105C528+1424664]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105C6A2+1425042]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0106D448+1494072]
+BaseThreadInitThunk [0x7653FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77027A9E+286]
+RtlGetAppContainerNamedObjectPath [0x77027A6E+238]
+
+Command duration or timeout: 2.45 seconds]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: No matching capabilities found
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-Q2RM1HI', ip: '10.1.10.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::unpack [0x01166B73+47027]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E52B30+132256]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E926C4+393268]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E91351+388289]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E8E23B+375723]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E71BA6+259350]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E725A9+261913]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105A85C+1417292]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012D96C4+88196]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012DC7D8+100760]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012D9E11+90065]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x01051DBC+1381804]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105C528+1424664]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105C6A2+1425042]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0106D448+1494072]
+BaseThreadInitThunk [0x7653FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77027A9E+286]
+RtlGetAppContainerNamedObjectPath [0x77027A6E+238]
+
+Command duration or timeout: 2.45 seconds
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at seleniumGridExamples.HRMEdgeExample.openBrowser(HRMEdgeExample.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: No matching capabilities found
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-Q2RM1HI', ip: '10.1.10.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::unpack [0x01166B73+47027]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E52B30+132256]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E926C4+393268]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E91351+388289]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E8E23B+375723]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E71BA6+259350]
+Microsoft::Applications::Events::DebugEventListener::~DebugEventListener [0x00E725A9+261913]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105A85C+1417292]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012D96C4+88196]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012DC7D8+100760]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x012D9E11+90065]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x01051DBC+1381804]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105C528+1424664]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0105C6A2+1425042]
+Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds [0x0106D448+1494072]
+BaseThreadInitThunk [0x7653FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77027A9E+286]
+RtlGetAppContainerNamedObjectPath [0x77027A6E+238]
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q2RM1HI', ip: '10.1.10.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.grid.session.remote.RemoteSession$Factory.performHandshake(RemoteSession.java:147)
+at org.openqa.selenium.grid.session.remote.ServicedSession$Factory.apply(ServicedSession.java:161)
+at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$12(ActiveSessionFactory.java:180)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$11$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:183)
+at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$2(NewSessionPipeline.java:66)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+at java.util.Collections$2.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$3(NewSessionPipeline.java:69)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.DistinctOps$1$2.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Unknown Source)
+at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:72)
+at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
+at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumGridExamples.HRMEdgeExample@47faa49c]" started-at="2021-12-30T10:17:08 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1640839628501" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumGridExamples.HRMEdgeExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
