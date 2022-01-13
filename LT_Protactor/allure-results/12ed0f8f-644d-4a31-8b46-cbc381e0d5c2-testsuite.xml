@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641807724955' stop='1641807737887'>
+    <name>smokeTest</name>
+    <title>smokeTest</title>
+    <test-cases>
+        <test-case start='1641807725477' status='passed' stop='1641807727712'>
+            <name>Four Digit Number</name>
+            <title>Four Digit Number</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1641807727712' status='failed' stop='1641807730097'>
+            <name>Add Three digit Number</name>
+            <title>Add Three digit Number</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected '333' to equal '334'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (C:\Users\admin\Desktop\LT_Protactor\TestScript.js:45:44)
+                    at C:\Users\admin\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\admin\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\admin\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\admin\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\admin\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\admin\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\admin\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\admin\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1641807730097' status='passed' stop='1641807732402'>
+            <name>Add Two digit Number</name>
+            <title>Add Two digit Number</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1641807732402' status='passed' stop='1641807734705'>
+            <name>Add one digit Number</name>
+            <title>Add one digit Number</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
